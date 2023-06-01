@@ -1,0 +1,74 @@
+.card-body{
+  color: black;
+}
+.card-title{
+  word-wrap: normal;
+  font-size: 22px;
+  min-height: 70px;
+}
+.card-title-modal{
+  word-wrap: normal;
+  font-size: 22px;
+}
+
+.imagenModal{
+  margin-top: 20px;
+  height: 250px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+.imagen{
+  margin-top: 10px;
+  display: flex;
+  height: 275px;
+  justify-content: center;
+}
+
+.card-img-start{
+  max-width: 100%;
+}
+.button-close{
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-container{
+  justify-content: center;
+}
+.winecontainer{
+  max-height: 80vh;
+}
+
+@media screen and (max-width: 767px) {
+  .card-img-start{
+    max-width: 50%;
+    max-height: 250px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .card-img-start{
+    max-height: 300px;
+    width: auto;
+  }
+  .imagen{
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .imagen{
+    display: flex;
+    max-height: 300px;
+    justify-content: center;
+  }
+} 
+@media screen and (min-width: 991px) {
+  .imagen{
+    height: 275px;
+  }
+} 
+
+
+

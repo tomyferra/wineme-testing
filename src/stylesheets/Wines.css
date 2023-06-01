@@ -1,0 +1,64 @@
+.wines-style{
+  max-width: 300px;
+}
+
+.winelist{
+  padding: 20px 10% 0 10%;
+}
+
+.colornegro{
+  color: black;
+}
+.spinner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.wineMeGif{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.btn{
+  background-color: #776343;
+  color: white;
+  border: none;
+}
+
+.search-form{
+  display: flex;
+}
+.inputbar{
+  margin-right: 10px;
+}
+
+.noResultsText{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  color: #776343;
+}
+.noResultsImg{
+  width: 35%;
+}
+
+@media (width < 767px){
+  .winelist{
+    padding: 20px 5% 20px 5%;
+  }
+} 
+@media (767px <= width < 991px) {
+  .noResultsImg{
+    width: 40%;
+  }
+}
+
+@media (width < 767px) {
+  .noResultsImg{
+    width: 55%;
+  }
+}
